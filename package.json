@@ -1,0 +1,25 @@
+{
+  "name": "create-mycelial-spore",
+  "version": "1.0.0",
+  "description": "A CLI tool to scaffold a new Mycelial Spore project.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-mycelial-spore": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mycelial",
+    "spore",
+    "micro-frontend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.20"
+  }
+}
